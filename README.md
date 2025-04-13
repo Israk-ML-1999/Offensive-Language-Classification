@@ -29,12 +29,12 @@ test.csv: Unlabeled test dataset with multilingual content.
 ##Model Evaluation Results
 The transformer-based model (XLM-RoBERTa) outperformed all other models, achieving the highest AUC-ROC score of 0.8722.
 
- precision    recall  f1-score   support
+precision    recall   f1-score    support
 
    Non-Toxic       0.85      1.00      0.92       706
        Toxic       0.79      0.08      0.15       134
 
-    accuracy                           0.85       840
+accuracy                           0.85       840
    macro avg       0.82      0.54      0.53       840
 weighted avg       0.84      0.85      0.80       840
 
