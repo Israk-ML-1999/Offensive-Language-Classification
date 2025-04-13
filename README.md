@@ -39,7 +39,7 @@ accuracy                           0.85       840
 weighted avg       0.84      0.85      0.80       840
 
 
-# Generate predictions on test set than  Convert predictions to binary than predictions for the test dataset (i have predictade  predicted_toxic. CSV  test dataset )
+## Generate predictions on test set than  Convert predictions to binary than predictions for the test dataset (i have predictade  predicted_toxic. CSV  test dataset )
 
 ## Additional Observations
 1. Class Imbalance:
