@@ -25,8 +25,18 @@ test.csv: Unlabeled test dataset with multilingual content.
 
 # Prediction Function
  A function predict_toxicity was implemented to make predictions using all models for a given input sentence. Example:
+  
+Input Sentence: You are the worst person I have ever met.
 
-##Model Evaluation Results
+Toxic: Prediction = 0, Probability = 0.2651
+Abusive: Prediction = 0, Probability = 0.0242
+Vulgar: Prediction = 0, Probability = 0.4475
+Menace: Prediction = 0, Probability = 0.0490
+Offense: Prediction = 0, Probability = 0.4968
+Bigotry: Prediction = 0, Probability = 0.1015
+ 
+
+## Model Evaluation Results
 The transformer-based model (XLM-RoBERTa) outperformed all other models, achieving the highest AUC-ROC score of 0.8722.
 
 precision    recall   f1-score    support
